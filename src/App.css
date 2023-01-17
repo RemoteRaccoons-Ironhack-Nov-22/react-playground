@@ -1,6 +1,11 @@
+body {
+  text-align: center;
+}
+
 #logo {
   max-width: 200px;
 }
+
 
 header.light {
   background-color: rgb(174, 201, 255);
@@ -11,3 +16,23 @@ header.dark {
   color: #fff;
 }
 
+
+.card {
+  max-width: 80%;
+  margin: 1rem auto;
+  border: 1px solid #666;
+  box-shadow: 5px 5px 10px -5px;
+  transition: 0.4s;
+}
+.card:hover {
+  cursor: pointer;
+  box-shadow: 5px 5px 15px 0px;
+}
+
+.card.user {
+  background-color: #2dc5fa;
+}
+
+.card.movie {
+  background-color: #ffc353;
+}

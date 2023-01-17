@@ -1,9 +1,9 @@
 function Movie(props) {
 
-    console.log(props)
+    // console.log(props)
 
     return (
-        <section>
+        <section className="card movie">
             <h2>Movie details:</h2>
 
             <p>Title: {props.movieDetails.title}</p>

@@ -3,7 +3,7 @@ function User(props) {
     console.log(props)
 
     return (
-        <section>
+        <section className="card user">
             <h2>User details:</h2>
 
             <p>Name: {props.name}</p>
