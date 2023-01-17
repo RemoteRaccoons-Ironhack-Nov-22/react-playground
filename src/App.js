@@ -62,7 +62,7 @@ function App() {
       <br />
       <h1 style={titleCSS} id={titleId}>{title}</h1>
       <p>Hello {capitalizeFirstLetter(user.name)} {capitalizeFirstLetter(user.surname)}</p>
-      <button onClick={ () => {console.log("user clicked....")}}>Click me</button>
+
 
       <hr />
 
@@ -78,8 +78,7 @@ function App() {
 
       <hr />
 
-
-      <ReactPlayer url="https://vimeo.com/channels/top/22439234" playing={true} controls={true} />
+      <ReactPlayer url="https://vimeo.com/channels/top/22439234" playing={false} controls={true} />
 
       <Footer />
       

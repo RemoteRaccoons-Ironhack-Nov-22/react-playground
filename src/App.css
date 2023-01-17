@@ -1,3 +1,13 @@
 #logo {
   max-width: 200px;
 }
+
+header.light {
+  background-color: rgb(174, 201, 255);
+}
+
+header.dark {
+  background-color: rgb(27, 53, 105);
+  color: #fff;
+}
+
